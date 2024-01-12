@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-col items-center w-screen h-screen  bg-gray-500">
+        <h1 class="text-3xl font-medium text-white p-4  hello mt-40 ">Weight Converter</h1>
+
+        <form class="">
+            <input class="input outline-none w-64 p-2 rounded text-pink-500" type="number" />
+        </form>
+        <div class="  grams mt-2 w-64 rounded-lg  h-16 bg-red-400 hidden   " >
+            Grams: Output
+            <div class="grams-output text-center text-white "></div>
+        </div>
+        <div class=" pounds mt-2 w-64 rounded-lg  h-16  bg-orange-400 hidden">
+            Pounds: Output
+            <div class="pounds-output text-center text-white"></div>
+        </div>
+        <div class=" ounce mt-2 w-64 rounded-lg  h-16 bg-lime-400 hidden">
+            Ounce: Output
+            <div class="ounces-output text-center text-white"></div>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
